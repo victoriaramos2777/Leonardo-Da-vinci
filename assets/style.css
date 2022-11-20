@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #781fb5;
+    
+}
+
+header{
+    margin-bottom: 10%;
+}
+
+#inicio {
+    margin: 10%;
+}
+#inicio h1 {
+    color:#e8e3ec;
+    text-align: center;
+}
+header img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+     width: 40%;
+
+    border-radius:100%;
+    
+}
+header p{
+    text-align:center;
+    color:#e8e3ec;
+}
+
+.interno{
+    background-color: #e8e3ec;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.im2 {
+    padding:5%;
+    margin-left: 5%;
+}
+.im2 img {
+    width:30%;
+    border-radius: 10%;
+    margin-left: 30%;
+}
+.uno{
+    display: flex;
+    flex-direction: column;
+}
+
+.uno p {
+    text-align: justify;
+    width:80%;
+    margin:10%
+}
+ 
+ .botom{
+    margin-left:30%;
+    margin-bottom: 2%;
+    
+ }
+
+.obras h1 {
+    text-align: center;
+    padding-top: 10%;
+    color:black
+}
+
+h3{
+    text-align: center;
+    margin: 5%;
+}
+#leonardo {
+    margin: 5%;
+}
+
+#leonardo img{
+width:100%;
+border-radius: 60%;
+}
+#leonardo p {
+margin:5%;
+
+}
+#inventos {
+    padding-top:10%;
+}
+
+.par1, .par2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#inventos img {
+  width: 40%;
+  border-radius: 50%;
+  margin-left: 30%;
+}
+
+#inventos h1 {
+    text-align: center;
+    color: black;
+    
+}
+ h1 {
+    text-align:center;
+    color: #e8e3ec;
+    padding:5% ;
+}
+.details {
+    background-color:#481d68 ;
+    width: 80%;
+    margin-left: 10%;
+}
+
+summary {
+    color: #e8e3ec;
+}
+ 
+#final p{
+    color:#e8e3ec
+}
+#final button {
+    background-color:#626567 ;
+}
+footer {
+    background-color: #9040cd;
+    width:80%;
+    margin-top:5%;
+    margin-left: 10%;
+}
+footer h4 {
+    text-align: center;
+    color:#273746;
+}
+
+/*
+    Estilos para tableta
+*/
+@media screen and (min-width: 700px) {     
+    header img {
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        border-radius:100%;
+    }
+      header p{
+        font-size: x-large;
+      }
+    
+    .interno{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .im2 {
+        padding:5%;
+        margin-left: 5%;
+    }
+    .im2 img {
+        width:40%;
+        border-radius: 10%;
+        
+    }
+    .uno{
+        display: flex;
+        flex-direction: column;
+    }
+    .uno p{
+        font-size:x-large;
+    }
+
+    #leonardo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%
+    }
+
+    #leonardo img{
+    width:50%;
+    border-radius: 60%;
+    margin-left: 30%;
+
+
+    }
+    #leonardo p {
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 50%;
+        font-size: x-large;
+    }
+    
+    #inventos img {
+        border-radius: 50%;
+        margin:auto;
+        width: 200px;
+        height: 200px;
+    }
+    .par1, .par2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10%;
+        
+    }
+    .titulo1 {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+
+    #inventos h1 {
+    text-align:center;
+
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    h3 {
+        font-size: x-large;
+    }
+     
+    .botom button {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .details button {
+        margin: 3%;
+    }
+}
+
+
+/*
+    Estilos para escritorio
+*/
+@media screen and (min-width: 1000px) {
+    .interno {
+        background-color: #781fb5;
+    }
+
+    #inicio img {
+        width: 50%;
+        border-radius: 100%;
+
+    }
+    #inicio h1 {
+        font-size:80px;
+    }
+
+    #inicio p {
+        font-size: 40px;
+    }
+    
+    .im2{
+        background-color:#a52a22;
+        width:60%;
+        height:70% ;
+        display: flex;
+        justify-content: center;
+        margin:0%;
+     
+    }
+    .im2 img {
+        width: 60%;
+        margin-right: 30%;
+        
+        
+    }
+       .uno {
+        display: flex;
+        flex-direction: row;
+    }
+    .parrafo1 {
+        width: 40%;
+    
+        background-color: #e8e3ec;
+    
+    }
+
+    .parrafo1 p {
+        font-size: 20px;
+        margin-top:60% ;
+    }
+    .botom button{
+        font-size: 20px;
+        margin: 0%;
+        margin-left: 15%;
+    
+    }    
+     
+    .medio {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top:10%;
+        background-color: #e8e3ec;
+    }
+
+    .medio h1 {
+        color:#273746;
+        font-size:40px;
+    }
+    .medio h3 {
+        margin: 0%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #leonardo {
+        max-width: 100%;
+        margin: 0%;
+        
+    }
+
+    #leonardo img {
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        height:20%;
+        margin-left: 10%;
+        margin: 3%;
+        
+    }   
+     
+    .obras {
+        display:flex;
+        justify-content: flex-end;
+        margin: 10PX;
+        border: solid;
+        width: 90%;
+    }
+
+    
+    .num1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #leonardo p { 
+        margin: 0%;
+        padding: 0%;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .botom2 button {
+        margin-top: 20%;
+        font-size: 20px;
+        
+    }
+    .todo h1 {
+        font-size:40px;
+        color:#273746;
+        padding: 0%;
+
+    }
+    .todo {
+        background-color:#e8e3ec;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .todo h3 {
+        font-size: 40px ;
+        margin-right: 10%;
+    }
+    
+    #inventos {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width:100%; 
+        height: 100%;
+    }
+    #inventos img {
+        margin: 0;
+        padding: 0;
+        width: 550px;
+        height: 500px;
+    }
+    .par2 {
+        margin: 0;
+        padding: 0%;
+        display: flex;
+        gap: 50px;
+        margin-bottom: 2% ;
+        
+
+    }
+    .par2 img  {
+        margin: 10%;
+        width: 100%;
+    }
+
+    .par1 {
+        margin: 0%;
+        display: flex;
+        gap: 50px;
+    }
+    
+
+
+    .titulo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0%;
+        
+    }
+
+    .titulo1 img {
+        width: 80%;
+    }
+    
+   #final h1{
+         font-size: 40px;
+   }
+   
+   summary {
+        font-size:40px ;
+        list-style: none;
+   }
+
+    .details  p {
+        font-size: 20px;
+    }
+    .details button {
+        font-size: 20px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+}
+
+    
+    
+    
+    
+    
+
+    
